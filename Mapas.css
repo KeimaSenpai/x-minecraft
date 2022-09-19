@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Mojang-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Mojang-Bold.ttf);
+}@font-face {
+  font-family: 'Mojang-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Mojang-Regular.ttf);
+}
