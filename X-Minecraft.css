@@ -91,6 +91,10 @@
   top: -39%;
 }
 
+.u-section-2 .u-video-poster-1 {
+  background-image: url(images/I-video-di-Minecraft-superano-il-ridicolo-traguardo-di-YouTube.jpg);
+}
+
 .u-section-2 .u-text-1 {
   font-weight: 700;
   font-family: Mojang-Regular;
@@ -105,6 +109,13 @@
   .u-section-2 .u-video-1 {
     height: 486px;
     width: 940px;
+  }
+
+  .u-section-2 .u-video-poster-1 {
+    height: 56%;
+    width: 56%;
+    top: 22%;
+    left: 22%;
   }
 }
 
@@ -140,19 +151,22 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 473px;
+    min-height: 254px;
   }
 
   .u-section-2 .u-video-1 {
-    height: 190px;
-    margin-top: 17px;
+    height: 180px;
+    margin-top: 16px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: 17px;
+    width: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
   }
 } .u-section-3 {
   background-image: none;
@@ -342,6 +356,7 @@
   }
 
   .u-section-3 .u-layout-wrap-1 {
+    margin-top: 0;
     margin-bottom: 10px;
     margin-right: initial;
     margin-left: initial;
@@ -546,11 +561,20 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 693px;
+    min-height: 603px;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-4 .u-text-1 {
     font-size: 1.25rem;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 
   .u-section-4 .u-btn-1 {
@@ -781,16 +805,15 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 552px;
+    min-height: 542px;
   }
 
   .u-section-6 .u-layout-wrap-1 {
     margin-top: 11px;
-    margin-bottom: 11px;
   }
 
   .u-section-6 .u-layout-cell-1 {
-    min-height: 182px;
+    min-height: 167px;
   }
 
   .u-section-6 .u-text-1 {
@@ -802,7 +825,7 @@
   }
 
   .u-section-6 .u-layout-cell-2 {
-    min-height: 287px;
+    min-height: 264px;
   }
 
   .u-section-6 .u-container-layout-2 {
@@ -886,6 +909,10 @@
   position: absolute;
 }
 
+.u-section-8 .u-video-poster-1 {
+  background-image: url("images/I-video-di-Minecraft-superano-il-ridicolo-traguardo-di-YouTube.jpg");
+}
+
 .u-section-8 .u-text-1 {
   font-family: Mojang-Bold;
   font-size: 1.5rem;
@@ -933,11 +960,16 @@
 
 @media (max-width: 575px) {
   .u-section-8 .u-sheet-1 {
-    min-height: 373px;
+    min-height: 218px;
   }
 
   .u-section-8 .u-video-1 {
-    height: 558px;
+    height: 179px;
+  }
+
+  .u-section-8 .u-text-1 {
+    width: auto;
+    margin: 8px;
   }
 }@font-face {
   font-family: 'Mojang-Regular';
